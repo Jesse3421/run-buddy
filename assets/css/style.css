@@ -12,7 +12,7 @@ body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
-    header {
+header {
         /*apply styles to header*/
         padding: 20px 35px;
         background-color: #39a6b2;
@@ -20,31 +20,31 @@ body {
         justify-content: space-between;
         flex-wrap: wrap;
     }
-    header h1 {
+header h1 {
         font-weight: bold;
         font-size: 36px;
         color: #fce138;
         margin:0;
         
     }
-    header a {
+header a {
         color: #fce138;
     }
-    header a {
+header a {
         text-decoration: none;
         color: #fce138;
     }
-    header nav {
+header nav {
         margin: 7px 0;
     }
-    header nav ul {
+header nav ul {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         list-style: none;
     }
-    header nav ul li a {
+header nav ul li a {
         margin: 0 30px;
         font-weight: lighter;
         font-size: 1.55vw;
@@ -136,9 +136,7 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
-.intro {
-    text-align: center;
-}
+
 .intro h2 {
     font-size: 55px;
     color: #024e76;
@@ -154,14 +152,16 @@ section {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 .primary-border {
     border-color: #fce138;
@@ -189,11 +189,9 @@ section {
     font-size: 38px;
 }
 .steps {
-    text-align: center;
     background: #fce138;
 }
 .trainers {
-    text-align: center;
 }
 .trainer {
     width: 900px;
@@ -217,6 +215,9 @@ section {
 .text-right {
     text-align: right;
 }
+.flex-row {
+    display: flex;
+}
 .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8x;
@@ -231,7 +232,6 @@ section {
     line-height: 1.3;
 }
 .contact {
-    text-align: center;
     background: #024e76;
 }
 .contact h2 {
